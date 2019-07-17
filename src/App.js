@@ -13,12 +13,11 @@ function App() {
       <Router>
         <Switch>
           <Route path="/" exact component={Landing} />
-
           <Route path="/about" exact component={About} />
           <Route component={NotFound} />
         </Switch>
+        <Footer>Made at 🏖️</Footer>
       </Router>
-      <Footer>Made at 🏖️</Footer>
     </>
   );
 }
