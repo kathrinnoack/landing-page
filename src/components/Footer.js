@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 const Footer = styled.footer`
-  height: 45px;
+  height: 40px;
   border-top: 1px solid white;
-  background: blue;
+  background: #ed820d;
   text-align: center;
   bottom: 0%;
   position: static;

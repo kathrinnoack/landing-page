@@ -5,6 +5,7 @@ import MainLogo from "../components/MainLogo";
 import MainHeadline from "../components/MainHeadline";
 import Section from "../components/Section";
 import Divider from "../components/Divider";
+import ButtonLink from "../components/ButtonLink";
 
 function Landing() {
   return (
@@ -23,7 +24,7 @@ function Landing() {
         <br />
         🏖️
         <br />
-        <button>🤔About me</button>
+        <ButtonLink to="/about">About me 🤔</ButtonLink>
       </Section>
     </>
   );
