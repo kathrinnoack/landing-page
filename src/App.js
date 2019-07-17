@@ -1,25 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import GlobalStyle from "./components/GlobalStyle";
+import BackgroundImage from "./components/BackgroundImage";
+import Fullscreen from "./components/Fullscreen";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <GlobalStyle />
+      <Fullscreen>
+        <BackgroundImage src="https://cdn.pixabay.com/photo/2016/11/22/21/43/adventure-1850713_1280.jpg" />
+        <header>
+          <img src={logo} className="App-logo" alt="logo" />
+          <h1>Hello</h1>
+        </header>
+      </Fullscreen>
+    </>
   );
 }
 
