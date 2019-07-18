@@ -7,7 +7,7 @@ import PasteForm from "../components/PasteForm";
 function Paste() {
   return (
     <Section>
-      <Headline> Paste and feel good</Headline>
+      <Headline> Add a new expense</Headline>
       <Divider />
       <PasteForm />
     </Section>
