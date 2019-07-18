@@ -11,7 +11,7 @@ function Landing() {
   return (
     <>
       <Fullscreen>
-        <BackgroundImage src="https://cdn.pixabay.com/photo/2016/11/22/21/43/adventure-1850713_1280.jpg" />
+        <BackgroundImage src="https://cdn.pixabay.com/photo/2014/10/21/12/28/bills-496229_1280.jpg" />
         <MainLogo />
         <MainHeadline> Travel </MainHeadline>
       </Fullscreen>
