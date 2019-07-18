@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Divider = styled.hr`
-  width: 200px;
+  width: 80vw;
   height: 2px;
   background: white;
 `;

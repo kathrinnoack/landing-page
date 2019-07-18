@@ -22,9 +22,11 @@ function Landing() {
         <br />
         Tell me more!
         <br />
-        💰
+        <span role="img">💰</span>
         <br />
-        <ButtonLink to="/about">About me 🤔</ButtonLink>
+        <ButtonLink to="/about">
+          About me <span role="img">🤔</span>
+        </ButtonLink>
       </Section>
     </>
   );

@@ -1,10 +1,25 @@
 //hier greifen wir auf die API  zu
 
+const url = "https://rfvlb.sse.codesandbox.io/";
+
+function handleJsonResponse(response) {
+  if (response.status !== 200) {
+    throw new Error(`Invalid request ${response.status}`);
+  }
+  return response.json(); //parsed den body
+}
+
 export function getPaste(id) {
-  return fetch(`https://rfvlb.sse.codesandbox.io/${id}`).then(response => {
-    if (response.status !== 200) {
-      throw new Error(`Invalid request ${response.status}`);
-    }
-    return response.json();
-  });
+  return fetch(`${url}${id}`).then(response => handleJsonResponse(response));
+}
+
+//Methode ist POST (weil wir was schreiben)
+export function postPaste(paste) {
+  return fetch(url, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify(paste)
+  }).then(handleJsonResponse);
 }
