@@ -16,13 +16,13 @@ function Landing() {
         <MainHeadline> Travel </MainHeadline>
       </Fullscreen>
       <Section>
-        <h2>Let´s Travel</h2>
+        <h2>Let´s save money</h2>
         <Divider />
-        Countries
+        Expences
         <br />
         Tell me more!
         <br />
-        🏖️
+        💰
         <br />
         <ButtonLink to="/about">About me 🤔</ButtonLink>
       </Section>
