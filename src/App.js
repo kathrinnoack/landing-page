@@ -17,7 +17,7 @@ function App() {
           <Route path="/" exact component={Landing} />
           <Route path="/about" exact component={About} />
           <Route path="/paste" exact component={NewPaste} />
-          <Route pathe="paste/:id" excat component={PasteDetails} />
+          <Route path="/paste/:id" exact component={PasteDetails} />
           <Route component={NotFound} />
         </Switch>
         <Footer>Made at 🏖️</Footer>

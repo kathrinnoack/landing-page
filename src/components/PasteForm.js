@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-//import NewPaste from "./NewPaste";
 
 const Form = styled.form`
   display: flex;
