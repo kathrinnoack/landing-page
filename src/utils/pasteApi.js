@@ -1,6 +1,6 @@
 //hier greifen wir auf die API  zu
 
-const url = "https://rfvlb.sse.codesandbox.io/";
+const url = "http://localhost:8080";
 
 function handleJsonResponse(response) {
   if (response.status !== 200) {
